@@ -1,0 +1,2960 @@
+{
+  "run_id": "019db95d-7da4-7960-aa12-a6875a77cd6c",
+  "agent_id": "019db95d-7d6b-79d1-9908-5276e6cd29d2",
+  "batch_index": 10,
+  "batch_count": 10,
+  "event_index_start": 157921196,
+  "event_index_end": 157921613,
+  "count": 50,
+  "events": [
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921196,
+      "recorded_at": "2026-04-23T08:14:40.460187605+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921197,
+      "recorded_at": "2026-04-23T08:14:40.476222506+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_0191DGxXx6ieLY3DVcdyvKYE",
+              "stream_token": "019db967-cb5a-7182-90c7-78bbbf155010",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921205,
+      "recorded_at": "2026-04-23T08:14:42.654037657+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01M9LuUP3cXNE7WAfSD3VWLu",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": "build_twin_post",
+                      "title": "保存 toy agent id",
+                      "tool": {
+                        "ExecuteJs": {
+                          "code": "\nstoreVar(\"toy_agent_id\", \"019db967-cad2-7b40-b642-9901f84ea469\");\nconsole.log(\"stored\");\n",
+                          "comment": "保存 toy agent id",
+                          "related_tool_name": "build_twin_post",
+                          "title": null,
+                          "vars": []
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [
+                {
+                  "content": [
+                    {
+                      "content": {
+                        "Text": {
+                          "text": "玩具 agent 创建成功！agent_id = `019db967-cad2-7b40-b642-9901f84ea469`。现在写 instructions，启动 run："
+                        }
+                      }
+                    }
+                  ],
+                  "role": "assistant"
+                }
+              ],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_0191DGxXx6ieLY3DVcdyvKYE",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 824,
+                  "cached_tokens": 134969
+                },
+                "output_tokens": 280,
+                "output_tokens_details": null,
+                "total_tokens": 136074
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921223,
+      "recorded_at": "2026-04-23T08:14:45.787159548+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01M9LuUP3cXNE7WAfSD3VWLu",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": "build_twin_post",
+              "title": "保存 toy agent id",
+              "tool": {
+                "ExecuteJs": {
+                  "code": "\nstoreVar(\"toy_agent_id\", \"019db967-cad2-7b40-b642-9901f84ea469\");\nconsole.log(\"stored\");\n",
+                  "comment": "保存 toy agent id",
+                  "related_tool_name": "build_twin_post",
+                  "title": null,
+                  "vars": []
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921226,
+      "recorded_at": "2026-04-23T08:14:45.850529149+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921227,
+      "recorded_at": "2026-04-23T08:14:45.856653947+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01M9LuUP3cXNE7WAfSD3VWLu",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "_stored_values": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "toy_agent_id": {
+                                "kind": {
+                                  "StringValue": "019db967-cad2-7b40-b642-9901f84ea469"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "call_id": {
+                        "kind": {
+                          "StringValue": "toolu_01M9LuUP3cXNE7WAfSD3VWLu"
+                        }
+                      },
+                      "console_logs": {
+                        "kind": {
+                          "ListValue": {
+                            "values": [
+                              {
+                                "kind": {
+                                  "StringValue": "stored"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "related_tool_name": {
+                        "kind": {
+                          "StringValue": "build_twin_post"
+                        }
+                      },
+                      "stored_variables": {
+                        "kind": {
+                          "ListValue": {
+                            "values": [
+                              {
+                                "kind": {
+                                  "StringValue": "toy_agent_id"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": "build_twin_post",
+              "request_id": null,
+              "tool_name": "execute_js"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921228,
+      "recorded_at": "2026-04-23T08:14:45.868236486+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921229,
+      "recorded_at": "2026-04-23T08:14:45.928212993+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921230,
+      "recorded_at": "2026-04-23T08:14:45.960860377+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921231,
+      "recorded_at": "2026-04-23T08:14:45.976828367+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_012XWc9hoVwyLiYFc1mEb8TZ",
+              "stream_token": "019db967-e0d7-7e52-8b85-7bbc3e91f756",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921239,
+      "recorded_at": "2026-04-23T08:14:48.470221861+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "## New Agent Created\n\nA new draft agent was successfully created on the Twin automation platform.\n\n> **Status:** Draft, with no instructions or runs yet.\n\nThe agent features a green icon background and is associated with a specific workspace, ready for further setup."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01Tmnqx8YhmQoNC2EaL4Yqf7",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Created a new draft agent on Twin",
+              "tool_name": "build_twin_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 2120,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 1098,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 3366
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921249,
+      "recorded_at": "2026-04-23T08:14:50.190666907+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "The toy agent ID was saved for later use."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01M9LuUP3cXNE7WAfSD3VWLu",
+              "is_user_relevant": false,
+              "message": "",
+              "payload": "",
+              "related_tool_name": "build_twin_post",
+              "success": true,
+              "summary": "",
+              "title": "Toy agent ID saved internally",
+              "tool_name": "execute_js",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1799,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 550,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 4018
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921250,
+      "recorded_at": "2026-04-23T08:14:50.352738157+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01Lwuk2WyBdumAfmBqooG1uC",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "build.twin.so POST",
+                      "tool": {
+                        "DynamicTool": {
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "body": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "content": {
+                                            "kind": {
+                                              "StringValue": "# Purpose\n\n玩具 agent：在 run 中依次调用 present_options 三次，用于观察 REST API 层人机交互回路行为。\n\n# Workflow\n\n## 第一步 [[tool:present_options]]\n调用 present_options，type=PickOne，prompt=\"请选一个颜色\"，options=[\"红\",\"绿\",\"蓝\"]。\n\n## 第二步 [[tool:present_options]]\n调用 present_options，type=OpenEnded，prompt=\"请输入一个 1 到 100 之间的整数\"，options=[]。\n\n## 第三步 [[tool:present_options]]\n调用 present_options，type=Secret，prompt=\"请输入一个测试用的假 token（随便编，不要填真实密钥）\"，options=[]。\n\n## 最终 [[tool:finish_run]]\n三道题的答复概要输出，然后 finish_run。\n"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "path": {
+                                    "kind": {
+                                      "StringValue": "v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": null,
+                          "name": "build_twin_post",
+                          "title": "build.twin.so POST"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_012XWc9hoVwyLiYFc1mEb8TZ",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 418,
+                  "cached_tokens": 135793
+                },
+                "output_tokens": 868,
+                "output_tokens_details": null,
+                "total_tokens": 137080
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921281,
+      "recorded_at": "2026-04-23T08:15:00.401543768+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01Lwuk2WyBdumAfmBqooG1uC",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "build.twin.so POST",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "body": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "content": {
+                                    "kind": {
+                                      "StringValue": "# Purpose\n\n玩具 agent：在 run 中依次调用 present_options 三次，用于观察 REST API 层人机交互回路行为。\n\n# Workflow\n\n## 第一步 [[tool:present_options]]\n调用 present_options，type=PickOne，prompt=\"请选一个颜色\"，options=[\"红\",\"绿\",\"蓝\"]。\n\n## 第二步 [[tool:present_options]]\n调用 present_options，type=OpenEnded，prompt=\"请输入一个 1 到 100 之间的整数\"，options=[]。\n\n## 第三步 [[tool:present_options]]\n调用 present_options，type=Secret，prompt=\"请输入一个测试用的假 token（随便编，不要填真实密钥）\"，options=[]。\n\n## 最终 [[tool:finish_run]]\n三道题的答复概要输出，然后 finish_run。\n"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "build_twin_post",
+                  "title": "build.twin.so POST"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921282,
+      "recorded_at": "2026-04-23T08:15:00.434537475+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01Lwuk2WyBdumAfmBqooG1uC",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StringValue": ""
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "access-control-allow-credentials": {
+                                "kind": {
+                                  "StringValue": "true"
+                                }
+                              },
+                              "access-control-allow-origin": {
+                                "kind": {
+                                  "StringValue": "https://builder.twin.so"
+                                }
+                              },
+                              "access-control-expose-headers": {
+                                "kind": {
+                                  "StringValue": "grpc-status,grpc-message"
+                                }
+                              },
+                              "allow": {
+                                "kind": {
+                                  "StringValue": "GET,HEAD,PUT"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "0"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:15:00 GMT"
+                                }
+                              },
+                              "referrer-policy": {
+                                "kind": {
+                                  "StringValue": "strict-origin-when-cross-origin"
+                                }
+                              },
+                              "strict-transport-security": {
+                                "kind": {
+                                  "StringValue": "max-age=31536000; includeSubDomains; preload"
+                                }
+                              },
+                              "vary": {
+                                "kind": {
+                                  "StringValue": "origin, access-control-request-method, access-control-request-headers"
+                                }
+                              },
+                              "x-content-type-options": {
+                                "kind": {
+                                  "StringValue": "nosniff"
+                                }
+                              },
+                              "x-frame-options": {
+                                "kind": {
+                                  "StringValue": "SAMEORIGIN"
+                                }
+                              },
+                              "x-xss-protection": {
+                                "kind": {
+                                  "StringValue": "1; mode=block"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 405
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Method Not Allowed"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://build.twin.so/v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "build_twin_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921283,
+      "recorded_at": "2026-04-23T08:15:00.449392785+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921284,
+      "recorded_at": "2026-04-23T08:15:00.494076823+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921285,
+      "recorded_at": "2026-04-23T08:15:00.521016008+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921286,
+      "recorded_at": "2026-04-23T08:15:00.536781152+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_017gjWDJviHXyZ7VBAsyiLsm",
+              "stream_token": "019db968-19b7-7cf3-bbea-d09262288eda",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921297,
+      "recorded_at": "2026-04-23T08:15:02.934148537+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "MessageThread": {
+                      "app_name": "build twin post",
+                      "destination": null,
+                      "message": "",
+                      "sender_name": "Agent",
+                      "summary_markdown": null
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01Lwuk2WyBdumAfmBqooG1uC",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Failed to update Twin agent instructions",
+              "tool_name": "build_twin_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 2035,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 583,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2766
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921302,
+      "recorded_at": "2026-04-23T08:15:05.325686772+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01Sp3WZgrYBampqRNeF6AdQG",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "build PUT",
+                      "tool": {
+                        "CreateTool": {
+                          "auth_variables": [
+                            "twin_api_key"
+                          ],
+                          "body_schema": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "additionalProperties": {
+                                    "kind": {
+                                      "BoolValue": true
+                                    }
+                                  },
+                                  "type": {
+                                    "kind": {
+                                      "StringValue": "object"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": "build PUT",
+                          "description": "build.twin.so PUT",
+                          "header_comments": {
+                            "a": "a"
+                          },
+                          "headers": {
+                            "comments": {
+                              "a": "a"
+                            },
+                            "entries": {
+                              "Accept": "application/json",
+                              "Content-Type": "application/json",
+                              "x-api-key": "***REDACTED***"
+                            }
+                          },
+                          "method": 3,
+                          "name": "build_twin_put",
+                          "path_schema": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "properties": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "path": {
+                                            "kind": {
+                                              "StructValue": {
+                                                "fields": {
+                                                  "description": {
+                                                    "kind": {
+                                                      "StringValue": "path"
+                                                    }
+                                                  },
+                                                  "type": {
+                                                    "kind": {
+                                                      "StringValue": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "required": {
+                                    "kind": {
+                                      "ListValue": {
+                                        "values": [
+                                          {
+                                            "kind": {
+                                              "StringValue": "path"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": {
+                                    "kind": {
+                                      "StringValue": "object"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "query_schema": null,
+                          "timeout_ms": 60000,
+                          "title": "build.twin.so PUT",
+                          "url": "https://build.twin.so/{path}",
+                          "usage_guidance": "build.twin.so base PUT, x-api-key"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01AruE7M8dUTppBCEDxhPpBn",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "build PATCH",
+                      "tool": {
+                        "CreateTool": {
+                          "auth_variables": [
+                            "twin_api_key"
+                          ],
+                          "body_schema": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "additionalProperties": {
+                                    "kind": {
+                                      "BoolValue": true
+                                    }
+                                  },
+                                  "type": {
+                                    "kind": {
+                                      "StringValue": "object"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": "build PATCH",
+                          "description": "build.twin.so PATCH",
+                          "header_comments": {
+                            "a": "a"
+                          },
+                          "headers": {
+                            "comments": {
+                              "a": "a"
+                            },
+                            "entries": {
+                              "Accept": "application/json",
+                              "Content-Type": "application/json",
+                              "x-api-key": "***REDACTED***"
+                            }
+                          },
+                          "method": 4,
+                          "name": "build_twin_patch",
+                          "path_schema": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "properties": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "path": {
+                                            "kind": {
+                                              "StructValue": {
+                                                "fields": {
+                                                  "description": {
+                                                    "kind": {
+                                                      "StringValue": "path"
+                                                    }
+                                                  },
+                                                  "type": {
+                                                    "kind": {
+                                                      "StringValue": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "required": {
+                                    "kind": {
+                                      "ListValue": {
+                                        "values": [
+                                          {
+                                            "kind": {
+                                              "StringValue": "path"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": {
+                                    "kind": {
+                                      "StringValue": "object"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "query_schema": null,
+                          "timeout_ms": 60000,
+                          "title": "build.twin.so PATCH",
+                          "url": "https://build.twin.so/{path}",
+                          "usage_guidance": "build.twin.so PATCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01Vg8HxV9Qat14o5kDyPfpQ3",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "build DELETE",
+                      "tool": {
+                        "CreateTool": {
+                          "auth_variables": [
+                            "twin_api_key"
+                          ],
+                          "body_schema": null,
+                          "comment": "build DELETE",
+                          "description": "build.twin.so DELETE",
+                          "header_comments": {
+                            "a": "a"
+                          },
+                          "headers": {
+                            "comments": {
+                              "a": "a"
+                            },
+                            "entries": {
+                              "Accept": "application/json",
+                              "x-api-key": "***REDACTED***"
+                            }
+                          },
+                          "method": 5,
+                          "name": "build_twin_delete",
+                          "path_schema": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "properties": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "path": {
+                                            "kind": {
+                                              "StructValue": {
+                                                "fields": {
+                                                  "description": {
+                                                    "kind": {
+                                                      "StringValue": "path"
+                                                    }
+                                                  },
+                                                  "type": {
+                                                    "kind": {
+                                                      "StringValue": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "required": {
+                                    "kind": {
+                                      "ListValue": {
+                                        "values": [
+                                          {
+                                            "kind": {
+                                              "StringValue": "path"
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": {
+                                    "kind": {
+                                      "StringValue": "object"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "query_schema": null,
+                          "timeout_ms": 60000,
+                          "title": "build.twin.so DELETE",
+                          "url": "https://build.twin.so/{path}",
+                          "usage_guidance": "build DELETE"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [
+                {
+                  "content": [
+                    {
+                      "content": {
+                        "Text": {
+                          "text": "405——该路径只接受 PUT。我用了 build_twin_post，需要 build_twin_put。现在我没有 build put 工具。建一个并调："
+                        }
+                      }
+                    }
+                  ],
+                  "role": "assistant"
+                }
+              ],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_017gjWDJviHXyZ7VBAsyiLsm",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 1267,
+                  "cached_tokens": 136211
+                },
+                "output_tokens": 1573,
+                "output_tokens_details": null,
+                "total_tokens": 139052
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921403,
+      "recorded_at": "2026-04-23T08:15:15.168616334+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01Sp3WZgrYBampqRNeF6AdQG",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "build PUT",
+              "tool": {
+                "CreateTool": {
+                  "auth_variables": [
+                    "twin_api_key"
+                  ],
+                  "body_schema": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "additionalProperties": {
+                            "kind": {
+                              "BoolValue": true
+                            }
+                          },
+                          "type": {
+                            "kind": {
+                              "StringValue": "object"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": "build PUT",
+                  "description": "build.twin.so PUT",
+                  "header_comments": {
+                    "a": "a"
+                  },
+                  "headers": {
+                    "comments": {
+                      "a": "a"
+                    },
+                    "entries": {
+                      "Accept": "application/json",
+                      "Content-Type": "application/json",
+                      "x-api-key": "***REDACTED***"
+                    }
+                  },
+                  "method": 3,
+                  "name": "build_twin_put",
+                  "path_schema": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "properties": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "path": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "description": {
+                                            "kind": {
+                                              "StringValue": "path"
+                                            }
+                                          },
+                                          "type": {
+                                            "kind": {
+                                              "StringValue": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "required": {
+                            "kind": {
+                              "ListValue": {
+                                "values": [
+                                  {
+                                    "kind": {
+                                      "StringValue": "path"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "type": {
+                            "kind": {
+                              "StringValue": "object"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "query_schema": null,
+                  "timeout_ms": 60000,
+                  "title": "build.twin.so PUT",
+                  "url": "https://build.twin.so/{path}",
+                  "usage_guidance": "build.twin.so base PUT, x-api-key"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921404,
+      "recorded_at": "2026-04-23T08:15:15.199731805+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921405,
+      "recorded_at": "2026-04-23T08:15:15.206320994+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "DynamicToolCreationResolved": {
+              "call_id": "toolu_01Sp3WZgrYBampqRNeF6AdQG",
+              "definition": {
+                "application": {
+                  "app_type": "api",
+                  "application_id": "host:twin.so",
+                  "canonical_domain": "twin.so",
+                  "canonical_slug": "twin-so",
+                  "display_name": "Twin So",
+                  "icon_url": "https://favicon.im/twin.so?larger=true",
+                  "observed_domain": "build.twin.so",
+                  "resolution_source": "domain_fallback",
+                  "service": null
+                },
+                "auth_variables": [
+                  "twin_api_key"
+                ],
+                "body_schema": {
+                  "kind": {
+                    "StructValue": {
+                      "fields": {
+                        "additionalProperties": {
+                          "kind": {
+                            "BoolValue": true
+                          }
+                        },
+                        "type": {
+                          "kind": {
+                            "StringValue": "object"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "description": "build.twin.so PUT",
+                "from_artifacts": false,
+                "headers": {
+                  "comments": {
+                    "a": "a"
+                  },
+                  "entries": {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                    "x-api-key": "***REDACTED***"
+                  }
+                },
+                "icon": null,
+                "icon_url": "https://favicon.im/twin.so?larger=true",
+                "immutable": false,
+                "is_builtin": false,
+                "method": 3,
+                "name": "build_twin_put",
+                "path_schema": {
+                  "kind": {
+                    "StructValue": {
+                      "fields": {
+                        "properties": {
+                          "kind": {
+                            "StructValue": {
+                              "fields": {
+                                "path": {
+                                  "kind": {
+                                    "StructValue": {
+                                      "fields": {
+                                        "description": {
+                                          "kind": {
+                                            "StringValue": "path"
+                                          }
+                                        },
+                                        "type": {
+                                          "kind": {
+                                            "StringValue": "string"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "required": {
+                          "kind": {
+                            "ListValue": {
+                              "values": [
+                                {
+                                  "kind": {
+                                    "StringValue": "path"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": {
+                          "kind": {
+                            "StringValue": "object"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "query_schema": null,
+                "registry": null,
+                "scope": null,
+                "source": 1,
+                "timeout_ms": 60000,
+                "title": "build.twin.so PUT",
+                "tool_id": null,
+                "url": "https://build.twin.so/{path}",
+                "usage_guidance": "build.twin.so base PUT, x-api-key"
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921406,
+      "recorded_at": "2026-04-23T08:15:15.212048582+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01Sp3WZgrYBampqRNeF6AdQG",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "call_id": {
+                        "kind": {
+                          "StringValue": "toolu_01Sp3WZgrYBampqRNeF6AdQG"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "StringValue": "created"
+                        }
+                      },
+                      "tool": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "name": {
+                                "kind": {
+                                  "StringValue": "build_twin_put"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "create_tool"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921407,
+      "recorded_at": "2026-04-23T08:15:15.217617501+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01AruE7M8dUTppBCEDxhPpBn",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "build PATCH",
+              "tool": {
+                "CreateTool": {
+                  "auth_variables": [
+                    "twin_api_key"
+                  ],
+                  "body_schema": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "additionalProperties": {
+                            "kind": {
+                              "BoolValue": true
+                            }
+                          },
+                          "type": {
+                            "kind": {
+                              "StringValue": "object"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": "build PATCH",
+                  "description": "build.twin.so PATCH",
+                  "header_comments": {
+                    "a": "a"
+                  },
+                  "headers": {
+                    "comments": {
+                      "a": "a"
+                    },
+                    "entries": {
+                      "Accept": "application/json",
+                      "Content-Type": "application/json",
+                      "x-api-key": "***REDACTED***"
+                    }
+                  },
+                  "method": 4,
+                  "name": "build_twin_patch",
+                  "path_schema": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "properties": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "path": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "description": {
+                                            "kind": {
+                                              "StringValue": "path"
+                                            }
+                                          },
+                                          "type": {
+                                            "kind": {
+                                              "StringValue": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "required": {
+                            "kind": {
+                              "ListValue": {
+                                "values": [
+                                  {
+                                    "kind": {
+                                      "StringValue": "path"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "type": {
+                            "kind": {
+                              "StringValue": "object"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "query_schema": null,
+                  "timeout_ms": 60000,
+                  "title": "build.twin.so PATCH",
+                  "url": "https://build.twin.so/{path}",
+                  "usage_guidance": "build.twin.so PATCH"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921408,
+      "recorded_at": "2026-04-23T08:15:15.223278558+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921409,
+      "recorded_at": "2026-04-23T08:15:15.228749078+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "DynamicToolCreationResolved": {
+              "call_id": "toolu_01AruE7M8dUTppBCEDxhPpBn",
+              "definition": {
+                "application": {
+                  "app_type": "api",
+                  "application_id": "host:twin.so",
+                  "canonical_domain": "twin.so",
+                  "canonical_slug": "twin-so",
+                  "display_name": "Twin So",
+                  "icon_url": "https://favicon.im/twin.so?larger=true",
+                  "observed_domain": "build.twin.so",
+                  "resolution_source": "domain_fallback",
+                  "service": null
+                },
+                "auth_variables": [
+                  "twin_api_key"
+                ],
+                "body_schema": {
+                  "kind": {
+                    "StructValue": {
+                      "fields": {
+                        "additionalProperties": {
+                          "kind": {
+                            "BoolValue": true
+                          }
+                        },
+                        "type": {
+                          "kind": {
+                            "StringValue": "object"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "description": "build.twin.so PATCH",
+                "from_artifacts": false,
+                "headers": {
+                  "comments": {
+                    "a": "a"
+                  },
+                  "entries": {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                    "x-api-key": "***REDACTED***"
+                  }
+                },
+                "icon": null,
+                "icon_url": "https://favicon.im/twin.so?larger=true",
+                "immutable": false,
+                "is_builtin": false,
+                "method": 4,
+                "name": "build_twin_patch",
+                "path_schema": {
+                  "kind": {
+                    "StructValue": {
+                      "fields": {
+                        "properties": {
+                          "kind": {
+                            "StructValue": {
+                              "fields": {
+                                "path": {
+                                  "kind": {
+                                    "StructValue": {
+                                      "fields": {
+                                        "description": {
+                                          "kind": {
+                                            "StringValue": "path"
+                                          }
+                                        },
+                                        "type": {
+                                          "kind": {
+                                            "StringValue": "string"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "required": {
+                          "kind": {
+                            "ListValue": {
+                              "values": [
+                                {
+                                  "kind": {
+                                    "StringValue": "path"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": {
+                          "kind": {
+                            "StringValue": "object"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "query_schema": null,
+                "registry": null,
+                "scope": null,
+                "source": 1,
+                "timeout_ms": 60000,
+                "title": "build.twin.so PATCH",
+                "tool_id": null,
+                "url": "https://build.twin.so/{path}",
+                "usage_guidance": "build.twin.so PATCH"
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921410,
+      "recorded_at": "2026-04-23T08:15:15.234914267+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01AruE7M8dUTppBCEDxhPpBn",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "call_id": {
+                        "kind": {
+                          "StringValue": "toolu_01AruE7M8dUTppBCEDxhPpBn"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "StringValue": "created"
+                        }
+                      },
+                      "tool": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "name": {
+                                "kind": {
+                                  "StringValue": "build_twin_patch"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "create_tool"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921411,
+      "recorded_at": "2026-04-23T08:15:15.240504859+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01Vg8HxV9Qat14o5kDyPfpQ3",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "build DELETE",
+              "tool": {
+                "CreateTool": {
+                  "auth_variables": [
+                    "twin_api_key"
+                  ],
+                  "body_schema": null,
+                  "comment": "build DELETE",
+                  "description": "build.twin.so DELETE",
+                  "header_comments": {
+                    "a": "a"
+                  },
+                  "headers": {
+                    "comments": {
+                      "a": "a"
+                    },
+                    "entries": {
+                      "Accept": "application/json",
+                      "x-api-key": "***REDACTED***"
+                    }
+                  },
+                  "method": 5,
+                  "name": "build_twin_delete",
+                  "path_schema": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "properties": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "path": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "description": {
+                                            "kind": {
+                                              "StringValue": "path"
+                                            }
+                                          },
+                                          "type": {
+                                            "kind": {
+                                              "StringValue": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "required": {
+                            "kind": {
+                              "ListValue": {
+                                "values": [
+                                  {
+                                    "kind": {
+                                      "StringValue": "path"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "type": {
+                            "kind": {
+                              "StringValue": "object"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "query_schema": null,
+                  "timeout_ms": 60000,
+                  "title": "build.twin.so DELETE",
+                  "url": "https://build.twin.so/{path}",
+                  "usage_guidance": "build DELETE"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921412,
+      "recorded_at": "2026-04-23T08:15:15.246678971+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921413,
+      "recorded_at": "2026-04-23T08:15:15.251931492+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "DynamicToolCreationResolved": {
+              "call_id": "toolu_01Vg8HxV9Qat14o5kDyPfpQ3",
+              "definition": {
+                "application": {
+                  "app_type": "api",
+                  "application_id": "host:twin.so",
+                  "canonical_domain": "twin.so",
+                  "canonical_slug": "twin-so",
+                  "display_name": "Twin So",
+                  "icon_url": "https://favicon.im/twin.so?larger=true",
+                  "observed_domain": "build.twin.so",
+                  "resolution_source": "domain_fallback",
+                  "service": null
+                },
+                "auth_variables": [
+                  "twin_api_key"
+                ],
+                "body_schema": null,
+                "description": "build.twin.so DELETE",
+                "from_artifacts": false,
+                "headers": {
+                  "comments": {
+                    "a": "a"
+                  },
+                  "entries": {
+                    "Accept": "application/json",
+                    "x-api-key": "***REDACTED***"
+                  }
+                },
+                "icon": null,
+                "icon_url": "https://favicon.im/twin.so?larger=true",
+                "immutable": false,
+                "is_builtin": false,
+                "method": 5,
+                "name": "build_twin_delete",
+                "path_schema": {
+                  "kind": {
+                    "StructValue": {
+                      "fields": {
+                        "properties": {
+                          "kind": {
+                            "StructValue": {
+                              "fields": {
+                                "path": {
+                                  "kind": {
+                                    "StructValue": {
+                                      "fields": {
+                                        "description": {
+                                          "kind": {
+                                            "StringValue": "path"
+                                          }
+                                        },
+                                        "type": {
+                                          "kind": {
+                                            "StringValue": "string"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "required": {
+                          "kind": {
+                            "ListValue": {
+                              "values": [
+                                {
+                                  "kind": {
+                                    "StringValue": "path"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": {
+                          "kind": {
+                            "StringValue": "object"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "query_schema": null,
+                "registry": null,
+                "scope": null,
+                "source": 1,
+                "timeout_ms": 60000,
+                "title": "build.twin.so DELETE",
+                "tool_id": null,
+                "url": "https://build.twin.so/{path}",
+                "usage_guidance": "build DELETE"
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921414,
+      "recorded_at": "2026-04-23T08:15:15.257700662+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01Vg8HxV9Qat14o5kDyPfpQ3",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "call_id": {
+                        "kind": {
+                          "StringValue": "toolu_01Vg8HxV9Qat14o5kDyPfpQ3"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "StringValue": "created"
+                        }
+                      },
+                      "tool": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "name": {
+                                "kind": {
+                                  "StringValue": "build_twin_delete"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "create_tool"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921415,
+      "recorded_at": "2026-04-23T08:15:15.263109880+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921422,
+      "recorded_at": "2026-04-23T08:15:15.529077274+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921423,
+      "recorded_at": "2026-04-23T08:15:15.561761624+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921424,
+      "recorded_at": "2026-04-23T08:15:15.579576813+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "A custom tool was successfully created to support building PUT operations."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01Sp3WZgrYBampqRNeF6AdQG",
+              "is_user_relevant": false,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Created a new tool for building PUT functionality",
+              "tool_name": "create_tool",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1751,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 866,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 4286
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921462,
+      "recorded_at": "2026-04-23T08:15:21.210152372+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "**Tool created successfully.**\n\nA custom tool was created to build a patch. This step prepares the system for further actions."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01AruE7M8dUTppBCEDxhPpBn",
+              "is_user_relevant": false,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Custom tool for building a patch was created",
+              "tool_name": "create_tool",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1753,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 646,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2547
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921465,
+      "recorded_at": "2026-04-23T08:15:21.356737712+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "**A new delete tool was successfully created.**\n\nThe creation process completed with a status of 'created', ready for use in handling delete operations."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01Vg8HxV9Qat14o5kDyPfpQ3",
+              "is_user_relevant": false,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Delete tool created successfully",
+              "tool_name": "create_tool",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1757,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 609,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2514
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921466,
+      "recorded_at": "2026-04-23T08:15:21.474626853+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_01DVfq9DeM8co6r5etHTheiq",
+              "stream_token": "019db968-547a-75e0-9152-a4a42b9bce6f",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921506,
+      "recorded_at": "2026-04-23T08:15:23.953396682+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01DNjDF3hYBcTpG5JoJ6qufj",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "build.twin.so PUT",
+                      "tool": {
+                        "DynamicTool": {
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "content": {
+                                    "kind": {
+                                      "StringValue": "玩具 instructions"
+                                    }
+                                  },
+                                  "path": {
+                                    "kind": {
+                                      "StringValue": "v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": null,
+                          "name": "build_twin_put",
+                          "title": "build.twin.so PUT"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_01DVfq9DeM8co6r5etHTheiq",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 86342,
+                  "cached_tokens": 53681
+                },
+                "output_tokens": 124,
+                "output_tokens_details": null,
+                "total_tokens": 140148
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921507,
+      "recorded_at": "2026-04-23T08:15:24.639222712+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01DNjDF3hYBcTpG5JoJ6qufj",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "build.twin.so PUT",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "content": {
+                            "kind": {
+                              "StringValue": "玩具 instructions"
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "build_twin_put",
+                  "title": "build.twin.so PUT"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921508,
+      "recorded_at": "2026-04-23T08:15:24.673199333+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01DNjDF3hYBcTpG5JoJ6qufj",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "success": {
+                                "kind": {
+                                  "BoolValue": true
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "access-control-allow-credentials": {
+                                "kind": {
+                                  "StringValue": "true"
+                                }
+                              },
+                              "access-control-allow-origin": {
+                                "kind": {
+                                  "StringValue": "https://builder.twin.so"
+                                }
+                              },
+                              "access-control-expose-headers": {
+                                "kind": {
+                                  "StringValue": "grpc-status,grpc-message"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "16"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:15:24 GMT"
+                                }
+                              },
+                              "referrer-policy": {
+                                "kind": {
+                                  "StringValue": "strict-origin-when-cross-origin"
+                                }
+                              },
+                              "strict-transport-security": {
+                                "kind": {
+                                  "StringValue": "max-age=31536000; includeSubDomains; preload"
+                                }
+                              },
+                              "vary": {
+                                "kind": {
+                                  "StringValue": "origin, access-control-request-method, access-control-request-headers"
+                                }
+                              },
+                              "x-content-type-options": {
+                                "kind": {
+                                  "StringValue": "nosniff"
+                                }
+                              },
+                              "x-frame-options": {
+                                "kind": {
+                                  "StringValue": "SAMEORIGIN"
+                                }
+                              },
+                              "x-xss-protection": {
+                                "kind": {
+                                  "StringValue": "1; mode=block"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "PUT"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 200
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "OK"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://build.twin.so/v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "build_twin_put"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921509,
+      "recorded_at": "2026-04-23T08:15:24.708228434+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921510,
+      "recorded_at": "2026-04-23T08:15:24.754814334+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921511,
+      "recorded_at": "2026-04-23T08:15:24.788032931+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921512,
+      "recorded_at": "2026-04-23T08:15:24.803862772+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_01UtUG3AAdYEmSEKv7GHwkzc",
+              "stream_token": "019db968-7882-7440-a9f3-5aba3efd7ad6",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921532,
+      "recorded_at": "2026-04-23T08:15:27.282866858+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [
+                        {
+                          "author_name": null,
+                          "description": "Production",
+                          "embed_url": null,
+                          "height": null,
+                          "html": null,
+                          "preview_type": "link",
+                          "provider_name": "builder.twin.so",
+                          "thumbnail_url": null,
+                          "title": "Twin - Automate anything",
+                          "url": "https://builder.twin.so/",
+                          "width": null
+                        },
+                        {
+                          "author_name": null,
+                          "description": null,
+                          "embed_url": null,
+                          "height": null,
+                          "html": null,
+                          "preview_type": "link",
+                          "provider_name": null,
+                          "thumbnail_url": null,
+                          "title": null,
+                          "url": "https://build.twin.so/v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions",
+                          "width": null
+                        }
+                      ],
+                      "is_markdown": true,
+                      "text": "> **Update successful**\n\nThe agent's instructions on the Twin automation platform were successfully updated.\n\n[View on Twin](https://builder.twin.so/)\n\n[[embed:1]]"
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01DNjDF3hYBcTpG5JoJ6qufj",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Successfully updated agent instructions on Twin",
+              "tool_name": "build_twin_put",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 2035,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 636,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 4340
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921576,
+      "recorded_at": "2026-04-23T08:15:31.112901801+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01RXugrW32Ry4rUvbE1dZusF",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "build.twin.so PUT",
+                      "tool": {
+                        "DynamicTool": {
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "content": {
+                                    "kind": {
+                                      "StringValue": "玩具 agent 指令。在本次 run 中严格按以下顺序执行三步，然后 finish_run：\n\n## 第一步\n使用 present_options 工具，title=\"选颜色\"，description=\"实验第一题\"，信息类型为 PickOne，prompt=\"请选一个颜色\"，options=[\"红\",\"绿\",\"蓝\"]。\n\n## 第二步\n使用 present_options 工具，title=\"选数字\"，description=\"实验第二题\"，信息类型为 OpenEnded，prompt=\"请输入一个 1 到 100 之间的整数\"，options=[]。\n\n## 第三步\n使用 present_options 工具，title=\"假 token\"，description=\"实验第三题\"，信息类型为 Secret，prompt=\"请输入一个测试用的假 token（随便编，不要填真实密钥）\"，options=[]。\n\n## 结束\nfinish_run，summary 中汇总三道题的答复。\n"
+                                    }
+                                  },
+                                  "path": {
+                                    "kind": {
+                                      "StringValue": "v1/agents/019db967-cad2-7b40-b642-9901f84ea469/instructions"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": null,
+                          "name": "build_twin_put",
+                          "title": "build.twin.so PUT"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [
+                {
+                  "content": [
+                    {
+                      "content": {
+                        "Text": {
+                          "text": "但问题：我的 build_twin_put body_schema 是 additionalProperties，模型传了个 `content: \"玩具 instructions\"` 字段——这个看似是传到 body 里了（服务器返回 success: true）。但任务要求三个完整步骤 instructions。让我用合适的 content PUT 一次：\n\n其实服务器接受了 `{content: \"玩具 instructions\"}` 这么简短的内容并返回 success: true。但 Twin 的 agent 是通过指令做事的，简短 content 也能工作——runner 会读 content 再决定做什么。我先写完整的 instructions 再次："
+                        }
+                      }
+                    }
+                  ],
+                  "role": "assistant"
+                }
+              ],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_01UtUG3AAdYEmSEKv7GHwkzc",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 512,
+                  "cached_tokens": 140023
+                },
+                "output_tokens": 614,
+                "output_tokens_details": null,
+                "total_tokens": 141150
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157921613,
+      "recorded_at": "2026-04-23T08:15:36.853995397+00:00"
+    }
+  ]
+}
