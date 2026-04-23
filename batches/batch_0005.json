@@ -1,0 +1,2920 @@
+{
+  "run_id": "019db95d-7da4-7960-aa12-a6875a77cd6c",
+  "agent_id": "019db95d-7d6b-79d1-9908-5276e6cd29d2",
+  "batch_index": 5,
+  "batch_count": 10,
+  "event_index_start": 157919991,
+  "event_index_end": 157920334,
+  "count": 50,
+  "events": [
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01VQfDwrpTebzbusm5nvspeZ",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API PATCH Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id"
+                            }
+                          },
+                          "user_input": {
+                            "kind": {
+                              "StringValue": "红"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_patch",
+                  "title": "Twin API PATCH Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919991,
+      "recorded_at": "2026-04-23T08:09:55.296296183+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01QMVVLhgD9h12ipcm8trtPW",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:09:55 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/answer"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919992,
+      "recorded_at": "2026-04-23T08:09:55.290644611+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01VQfDwrpTebzbusm5nvspeZ",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:09:55 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "PATCH"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_patch"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919994,
+      "recorded_at": "2026-04-23T08:09:55.339498759+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01QJoF4ynZ4SexK3mdWFTJtd",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API POST Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "body": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "run_id": {
+                                    "kind": {
+                                      "StringValue": "run-placeholder-id"
+                                    }
+                                  },
+                                  "run_mode": {
+                                    "kind": {
+                                      "StringValue": "resume"
+                                    }
+                                  },
+                                  "user_message": {
+                                    "kind": {
+                                      "StringValue": "红"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_post",
+                  "title": "Twin API POST Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919995,
+      "recorded_at": "2026-04-23T08:09:55.344732922+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01LYWbMgPxRkYYusYC4KqdgZ",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API POST Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "body": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "reply": {
+                                    "kind": {
+                                      "StringValue": "红"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/reply"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_post",
+                  "title": "Twin API POST Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919996,
+      "recorded_at": "2026-04-23T08:09:55.393234608+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01QJoF4ynZ4SexK3mdWFTJtd",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:09:55 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919997,
+      "recorded_at": "2026-04-23T08:09:55.387575184+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01CUg1NbLvM5aK3oXyjCQtSq",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API POST Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "body": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "response": {
+                                    "kind": {
+                                      "StringValue": "红"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/respond"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_post",
+                  "title": "Twin API POST Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919998,
+      "recorded_at": "2026-04-23T08:09:55.442620059+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01LYWbMgPxRkYYusYC4KqdgZ",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:09:55 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/reply"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157919999,
+      "recorded_at": "2026-04-23T08:09:55.437186185+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01CUg1NbLvM5aK3oXyjCQtSq",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:09:55 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/respond"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920000,
+      "recorded_at": "2026-04-23T08:09:55.525484215+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01TUpEQA3MDM16Je7KCMbLk1",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API POST Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "body": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "input": {
+                                    "kind": {
+                                      "StringValue": "红"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/resume"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_post",
+                  "title": "Twin API POST Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920001,
+      "recorded_at": "2026-04-23T08:09:55.531538456+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01TUpEQA3MDM16Je7KCMbLk1",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:09:55 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/resume"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920002,
+      "recorded_at": "2026-04-23T08:09:55.574501140+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920003,
+      "recorded_at": "2026-04-23T08:09:55.869330765+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920004,
+      "recorded_at": "2026-04-23T08:09:55.896358511+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920005,
+      "recorded_at": "2026-04-23T08:09:55.912873605+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_015DW4L44TGcbscjwF5JHjak",
+              "stream_token": "019db963-73c7-7a41-a258-a22a2c995c32",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920019,
+      "recorded_at": "2026-04-23T08:09:57.663387835+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "**The attempt to send input to the agent run failed.**\n\nThe server returned a 'Not Found' error (status 404), meaning the specified resource—likely a placeholder agent or run ID—could not be located.\n\n> Detail: Not Found\n\nNo data was successfully submitted."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01SzYrcoWL5UY3mpLbJDXJ3B",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Request to submit input to agent run failed with 'Not Found' error",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1818,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 616,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 4103
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920028,
+      "recorded_at": "2026-04-23T08:09:59.441983372+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "> **Error: Resource not found.**\n\nThe attempt to send data to the service endpoint failed with a 'Not Found' response (status 404). The requested path for agents and runs did not exist."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01NyuSwya64kYYfdHpLDWhLg",
+              "is_user_relevant": false,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Request to send message failed with not found error",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1815,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 529,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2492
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920030,
+      "recorded_at": "2026-04-23T08:09:59.847679642+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "The attempt to send a response to the agent interaction failed.\n\n> The server returned a \"Not Found\" error, indicating the specified agent run does not exist."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01CUg1NbLvM5aK3oXyjCQtSq",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Request to respond to agent run failed with 'Not Found' error",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1820,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 573,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2541
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920031,
+      "recorded_at": "2026-04-23T08:10:00.270840200+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "> **Update failed:** The server could not find the specified agent run to update.\n\nAn attempt was made to modify details for a particular agent run, but it returned a 'not found' error, indicating the resource doesn't exist at the given location."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01VQfDwrpTebzbusm5nvspeZ",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Failed to update agent run: not found",
+              "tool_name": "twin_api_patch",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1816,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 498,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 3983
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920032,
+      "recorded_at": "2026-04-23T08:10:00.286956231+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01KiLJbktr4ynB9JpoeB4E3k",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "Twin API GET Request",
+                      "tool": {
+                        "DynamicTool": {
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "path": {
+                                    "kind": {
+                                      "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/events"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": null,
+                          "name": "twin_api_get",
+                          "title": "Twin API GET Request"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01DUohBZMnPjy8NzwiLHPN8a",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "Twin API POST Request",
+                      "tool": {
+                        "DynamicTool": {
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "body": {
+                                    "kind": {
+                                      "StructValue": {
+                                        "fields": {
+                                          "reason": {
+                                            "kind": {
+                                              "StringValue": "实验结束，清理 run"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "path": {
+                                    "kind": {
+                                      "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/cancel"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": null,
+                          "name": "twin_api_post",
+                          "title": "Twin API POST Request"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01Vhpi1u8JEQnCCiYGgKD5iE",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "Twin API DELETE Request",
+                      "tool": {
+                        "DynamicTool": {
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "path": {
+                                    "kind": {
+                                      "StringValue": "v1/agents/toy-placeholder-id"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": null,
+                          "name": "twin_api_delete",
+                          "title": "Twin API DELETE Request"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [
+                {
+                  "content": [
+                    {
+                      "content": {
+                        "Text": {
+                          "text": "所有 8 种 probe 返回 404。现在做最终 events 轮询 + cleanup："
+                        }
+                      }
+                    }
+                  ],
+                  "role": "assistant"
+                }
+              ],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_015DW4L44TGcbscjwF5JHjak",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 2842,
+                  "cached_tokens": 89387
+                },
+                "output_tokens": 333,
+                "output_tokens_details": null,
+                "total_tokens": 92563
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920034,
+      "recorded_at": "2026-04-23T08:10:00.784682206+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01KiLJbktr4ynB9JpoeB4E3k",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API GET Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/events"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_get",
+                  "title": "Twin API GET Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920035,
+      "recorded_at": "2026-04-23T08:10:00.854649831+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01DUohBZMnPjy8NzwiLHPN8a",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API POST Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "body": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "reason": {
+                                    "kind": {
+                                      "StringValue": "实验结束，清理 run"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id/runs/run-placeholder-id/cancel"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_post",
+                  "title": "Twin API POST Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920037,
+      "recorded_at": "2026-04-23T08:10:00.903455056+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01KiLJbktr4ynB9JpoeB4E3k",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:10:00 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "GET"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/events"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_get"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920038,
+      "recorded_at": "2026-04-23T08:10:00.899346964+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01DUohBZMnPjy8NzwiLHPN8a",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:10:00 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "POST"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/cancel"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_post"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920039,
+      "recorded_at": "2026-04-23T08:10:00.946696281+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01Vhpi1u8JEQnCCiYGgKD5iE",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "Twin API DELETE Request",
+              "tool": {
+                "DynamicTool": {
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "path": {
+                            "kind": {
+                              "StringValue": "v1/agents/toy-placeholder-id"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": null,
+                  "name": "twin_api_delete",
+                  "title": "Twin API DELETE Request"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920040,
+      "recorded_at": "2026-04-23T08:10:00.952178658+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01Vhpi1u8JEQnCCiYGgKD5iE",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "body": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "detail": {
+                                "kind": {
+                                  "StringValue": "Not Found"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "headers": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "connection": {
+                                "kind": {
+                                  "StringValue": "keep-alive"
+                                }
+                              },
+                              "content-length": {
+                                "kind": {
+                                  "StringValue": "22"
+                                }
+                              },
+                              "content-type": {
+                                "kind": {
+                                  "StringValue": "application/json"
+                                }
+                              },
+                              "date": {
+                                "kind": {
+                                  "StringValue": "Thu, 23 Apr 2026 08:10:00 GMT"
+                                }
+                              },
+                              "server": {
+                                "kind": {
+                                  "StringValue": "uvicorn"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "method": {
+                        "kind": {
+                          "StringValue": "DELETE"
+                        }
+                      },
+                      "status": {
+                        "kind": {
+                          "NumberValue": 404
+                        }
+                      },
+                      "status_text": {
+                        "kind": {
+                          "StringValue": "Not Found"
+                        }
+                      },
+                      "url": {
+                        "kind": {
+                          "StringValue": "https://api.twin.so/v1/agents/toy-placeholder-id"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "twin_api_delete"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920041,
+      "recorded_at": "2026-04-23T08:10:00.996511611+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920043,
+      "recorded_at": "2026-04-23T08:10:01.113649693+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920044,
+      "recorded_at": "2026-04-23T08:10:01.140860775+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920045,
+      "recorded_at": "2026-04-23T08:10:01.156577795+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "> **Result:** Not Found\n\nTried to resume a process, but it wasn't located on the server (error 404). No further action was taken."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01TUpEQA3MDM16Je7KCMbLk1",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Resume request failed: process not found",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1819,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 533,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2500
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920046,
+      "recorded_at": "2026-04-23T08:10:01.190279687+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": false,
+                      "text": "**Failed to send a reply.**\n\nThe attempt to post a reply to the conversation returned a 'Not Found' error. The server could not locate the specified conversation or resource."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01LYWbMgPxRkYYusYC4KqdgZ",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Reply post failed with 'Not Found' error",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1817,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 582,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2547
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920047,
+      "recorded_at": "2026-04-23T08:10:02.220315240+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "> The request to retrieve an answer from the service failed because the specified resource could not be found (404 error).  \n\nNo additional details or content were returned."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01QMVVLhgD9h12ipcm8trtPW",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Request for answer returned 'Not Found' error",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1818,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 763,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 4250
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920048,
+      "recorded_at": "2026-04-23T08:10:02.264133275+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_01UQuxWpw7EoTA4KaQnQ1AYG",
+              "stream_token": "019db963-8843-7033-beaa-f0ab29966d82",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920049,
+      "recorded_at": "2026-04-23T08:10:02.447584495+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "> **Request failed**: The attempt to start an agent run on the service returned a 'Not Found' error.\n\nThe server responded that the specified resource does not exist."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01QJoF4ynZ4SexK3mdWFTJtd",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Failed to start agent run - resource not found",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1814,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1669
+                },
+                "output_tokens": 1019,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 4502
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920095,
+      "recorded_at": "2026-04-23T08:10:04.999994245+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "**Deletion attempt failed.**\n\nTried to remove an agent from the service, but it returned a \"not found\" error (status 404). The agent with the specified ID does not exist.\n\n> The server responded: \"detail: Not Found\""
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01Vhpi1u8JEQnCCiYGgKD5iE",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Failed to delete agent: not found",
+              "tool_name": "twin_api_delete",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1812,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 1671
+                },
+                "output_tokens": 475,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 3958
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920097,
+      "recorded_at": "2026-04-23T08:10:05.364314207+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "**Cancellation attempt failed.**\n\nThe effort to stop the ongoing process did not succeed, as the specific run could not be located.\n\n> Error details: \"Not Found\" (status code 404)"
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01DUohBZMnPjy8NzwiLHPN8a",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Failed to cancel the process - item not found",
+              "tool_name": "twin_api_post",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1818,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 558,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2524
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920107,
+      "recorded_at": "2026-04-23T08:10:07.205841245+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolOutputSummary": {
+              "blocks": [
+                {
+                  "kind": {
+                    "Text": {
+                      "embeds": [],
+                      "is_markdown": true,
+                      "text": "> **Result:** No events found.\n\nThe request to retrieve events for the specified agent run returned a 'Not Found' error (HTTP 404). This means the events do not exist at the requested location."
+                    }
+                  }
+                }
+              ],
+              "call_id": "toolu_01KiLJbktr4ynB9JpoeB4E3k",
+              "is_user_relevant": true,
+              "message": "",
+              "payload": "",
+              "related_tool_name": null,
+              "success": true,
+              "summary": "",
+              "title": "Request for events returned 'Not Found' error",
+              "tool_name": "twin_api_get",
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1819,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 0,
+                  "cached_tokens": 148
+                },
+                "output_tokens": 548,
+                "output_tokens_details": {
+                  "reasoning_tokens": 0
+                },
+                "total_tokens": 2515
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920109,
+      "recorded_at": "2026-04-23T08:10:07.951340794+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_017KcEwsn4j3uJDkAkRk5kfD",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "记录 A 阶段剩余 + B 阶段 8 个 probe + 最终轮询 + cleanup",
+                      "tool": {
+                        "EmbeddedTool": {
+                          "action": "",
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "query": {
+                                    "kind": {
+                                      "StringValue": "\nINSERT INTO api_trace (phase, label, method, url, request_headers_sanitized, request_body, http_status, response_headers_sanitized, response_body_truncated, response_time_ms, timestamp, notes) VALUES\n('A', 'put-instructions', 'PUT', 'https://api.twin.so/v1/agents/toy-placeholder-id/instructions',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"instructions\":\"玩具 agent instructions: 依次问三道题 (1) PickOne 颜色 红绿蓝 (2) OpenEnded 1-100 整数 (3) Secret 假 token。每次答复记入内部 log 表。全部答完 finish_run。\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:45Z', '因 agent 未成功创建，端点本身不存在，返回 404'),\n('B-start-run', 'start-run', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"run_mode\":\"run\",\"user_message\":\"开始交互回路实验\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:45Z', '启动 run 端点不存在'),\n('B-poll-events', 'poll-events-initial', 'GET', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/events',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\"}', NULL,\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:45Z', 'events 端点不存在；计划中的 20 次轮询退化为 1 次 404，后续无意义故不重复发同一请求'),\n('B-probe', 'probe-A', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/messages',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"content\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 /messages：POST 答复消息风格；不存在'),\n('B-probe', 'probe-B', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/input',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"value\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 /input：POST value；不存在'),\n('B-probe', 'probe-C', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/answer',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"answer\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 /answer：POST answer；不存在'),\n('B-probe', 'probe-D', 'PATCH', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"user_input\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 PATCH run 本体：user_input 字段；不存在'),\n('B-probe', 'probe-E', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"run_mode\":\"resume\",\"run_id\":\"run-placeholder-id\",\"user_message\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点：复用 POST /runs + run_mode=resume；/runs 本身不存在'),\n('B-probe', 'probe-F', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/reply',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"reply\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '扩展候选 /reply：不存在'),\n('B-probe', 'probe-G', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/respond',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"response\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '扩展候选 /respond：不存在'),\n('B-probe', 'probe-H', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/resume',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"input\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '扩展候选 /resume：不存在'),\n('B-poll-events', 'poll-events-final', 'GET', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/events',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\"}', NULL,\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:10:00Z', '8 次 probe 后再次轮询 events：依旧 404，未观察到任何状态变化'),\n('C-cleanup', 'cleanup-cancel', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/cancel',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"reason\":\"实验结束，清理 run\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:10:00Z', 'cancel 端点不存在；因 run 本不存在，此步无实际清理效果'),\n('C-cleanup', 'cleanup-delete', 'DELETE', 'https://api.twin.so/v1/agents/toy-placeholder-id',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\"}', NULL,\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:10:00Z', 'delete agent 端点不存在；agent 本就未创建成功，无残留需清理');\n"
+                                    }
+                                  },
+                                  "var": {
+                                    "kind": {
+                                      "StringValue": "trace_insert_2"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": "记录 A 阶段剩余 + B 阶段 8 个 probe + 最终轮询 + cleanup",
+                          "tool_name": "query_database"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01B76ZnJPk21TUq1wYUVEEaB",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "记录 interrupt_events：由于未能启动 run，没有真实 interrupt 事件，插入一条占位说明",
+                      "tool": {
+                        "EmbeddedTool": {
+                          "action": "",
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "query": {
+                                    "kind": {
+                                      "StringValue": "\nINSERT INTO interrupt_events (event_index, event_type, prompt_text, options_json, input_type, raw_event_json, observed_at) VALUES\n(0, 'NOT_OBSERVED',\n '(未观察到 present_options interrupt 事件)',\n '[]', 'N/A',\n '{\"_note\":\"公开 REST API (api.twin.so) 未暴露 agent run / events 端点，无法启动玩具 agent run，因此无法捕获 present_options interrupt 事件的原始 JSON 结构。openapi.json 显示可用端点仅为 /apikey* /auth/* /goal-processing/*。\"}',\n '2026-04-23T08:10:00Z');\n"
+                                    }
+                                  },
+                                  "var": {
+                                    "kind": {
+                                      "StringValue": "interrupt_insert_1"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": "记录 interrupt_events：由于未能启动 run，没有真实 interrupt 事件，插入一条占位说明",
+                          "tool_name": "query_database"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [
+                {
+                  "content": [
+                    {
+                      "content": {
+                        "Text": {
+                          "text": "所有请求完成。现在把剩下的 14 条记录入 api_trace："
+                        }
+                      }
+                    }
+                  ],
+                  "role": "assistant"
+                }
+              ],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_01UQuxWpw7EoTA4KaQnQ1AYG",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 1050,
+                  "cached_tokens": 92229
+                },
+                "output_tokens": 3585,
+                "output_tokens_details": null,
+                "total_tokens": 96865
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920293,
+      "recorded_at": "2026-04-23T08:10:37.420129230+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_017KcEwsn4j3uJDkAkRk5kfD",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "记录 A 阶段剩余 + B 阶段 8 个 probe + 最终轮询 + cleanup",
+              "tool": {
+                "EmbeddedTool": {
+                  "action": "",
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "query": {
+                            "kind": {
+                              "StringValue": "\nINSERT INTO api_trace (phase, label, method, url, request_headers_sanitized, request_body, http_status, response_headers_sanitized, response_body_truncated, response_time_ms, timestamp, notes) VALUES\n('A', 'put-instructions', 'PUT', 'https://api.twin.so/v1/agents/toy-placeholder-id/instructions',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"instructions\":\"玩具 agent instructions: 依次问三道题 (1) PickOne 颜色 红绿蓝 (2) OpenEnded 1-100 整数 (3) Secret 假 token。每次答复记入内部 log 表。全部答完 finish_run。\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:45Z', '因 agent 未成功创建，端点本身不存在，返回 404'),\n('B-start-run', 'start-run', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"run_mode\":\"run\",\"user_message\":\"开始交互回路实验\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:45Z', '启动 run 端点不存在'),\n('B-poll-events', 'poll-events-initial', 'GET', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/events',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\"}', NULL,\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:45Z', 'events 端点不存在；计划中的 20 次轮询退化为 1 次 404，后续无意义故不重复发同一请求'),\n('B-probe', 'probe-A', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/messages',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"content\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 /messages：POST 答复消息风格；不存在'),\n('B-probe', 'probe-B', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/input',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"value\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 /input：POST value；不存在'),\n('B-probe', 'probe-C', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/answer',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"answer\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 /answer：POST answer；不存在'),\n('B-probe', 'probe-D', 'PATCH', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"user_input\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点 PATCH run 本体：user_input 字段；不存在'),\n('B-probe', 'probe-E', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"run_mode\":\"resume\",\"run_id\":\"run-placeholder-id\",\"user_message\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '候选端点：复用 POST /runs + run_mode=resume；/runs 本身不存在'),\n('B-probe', 'probe-F', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/reply',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"reply\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '扩展候选 /reply：不存在'),\n('B-probe', 'probe-G', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/respond',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"response\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '扩展候选 /respond：不存在'),\n('B-probe', 'probe-H', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/resume',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"input\":\"红\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:09:55Z', '扩展候选 /resume：不存在'),\n('B-poll-events', 'poll-events-final', 'GET', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/events',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\"}', NULL,\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:10:00Z', '8 次 probe 后再次轮询 events：依旧 404，未观察到任何状态变化'),\n('C-cleanup', 'cleanup-cancel', 'POST', 'https://api.twin.so/v1/agents/toy-placeholder-id/runs/run-placeholder-id/cancel',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\",\"Content-Type\":\"application/json\"}',\n '{\"reason\":\"实验结束，清理 run\"}',\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:10:00Z', 'cancel 端点不存在；因 run 本不存在，此步无实际清理效果'),\n('C-cleanup', 'cleanup-delete', 'DELETE', 'https://api.twin.so/v1/agents/toy-placeholder-id',\n '{\"Authorization\":\"Bearer ***REDACTED***\",\"Accept\":\"application/json\"}', NULL,\n 404, '{\"content-type\":\"application/json\",\"server\":\"uvicorn\"}', '{\"detail\":\"Not Found\"}', NULL,\n '2026-04-23T08:10:00Z', 'delete agent 端点不存在；agent 本就未创建成功，无残留需清理');\n"
+                            }
+                          },
+                          "var": {
+                            "kind": {
+                              "StringValue": "trace_insert_2"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": "记录 A 阶段剩余 + B 阶段 8 个 probe + 最终轮询 + cleanup",
+                  "tool_name": "query_database"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920294,
+      "recorded_at": "2026-04-23T08:10:37.452561947+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920295,
+      "recorded_at": "2026-04-23T08:10:37.458552241+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01B76ZnJPk21TUq1wYUVEEaB",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "记录 interrupt_events：由于未能启动 run，没有真实 interrupt 事件，插入一条占位说明",
+              "tool": {
+                "EmbeddedTool": {
+                  "action": "",
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "query": {
+                            "kind": {
+                              "StringValue": "\nINSERT INTO interrupt_events (event_index, event_type, prompt_text, options_json, input_type, raw_event_json, observed_at) VALUES\n(0, 'NOT_OBSERVED',\n '(未观察到 present_options interrupt 事件)',\n '[]', 'N/A',\n '{\"_note\":\"公开 REST API (api.twin.so) 未暴露 agent run / events 端点，无法启动玩具 agent run，因此无法捕获 present_options interrupt 事件的原始 JSON 结构。openapi.json 显示可用端点仅为 /apikey* /auth/* /goal-processing/*。\"}',\n '2026-04-23T08:10:00Z');\n"
+                            }
+                          },
+                          "var": {
+                            "kind": {
+                              "StringValue": "interrupt_insert_1"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": "记录 interrupt_events：由于未能启动 run，没有真实 interrupt 事件，插入一条占位说明",
+                  "tool_name": "query_database"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920296,
+      "recorded_at": "2026-04-23T08:10:37.482070138+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_017KcEwsn4j3uJDkAkRk5kfD",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "changed": {
+                        "kind": {
+                          "BoolValue": true
+                        }
+                      },
+                      "head_blob_key": {
+                        "kind": {
+                          "StringValue": "agents/019db95d-7d6b-79d1-9908-5276e6cd29d2/internal_sqlite/019db964-1618-75a2-b859-759e6f7f4bfa.db"
+                        }
+                      },
+                      "head_version": {
+                        "kind": {
+                          "NumberValue": 3
+                        }
+                      },
+                      "result": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "last_insert_rowid": {
+                                "kind": {
+                                  "NumberValue": 18
+                                }
+                              },
+                              "rows_affected": {
+                                "kind": {
+                                  "NumberValue": 14
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "query_database"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920297,
+      "recorded_at": "2026-04-23T08:10:37.476583464+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920298,
+      "recorded_at": "2026-04-23T08:10:37.487449169+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallResolved": {
+              "call_id": "toolu_01B76ZnJPk21TUq1wYUVEEaB",
+              "embedded_tool_usage_micros": null,
+              "in_storage": null,
+              "internal": false,
+              "media_output": null,
+              "output": {
+                "kind": {
+                  "StructValue": {
+                    "fields": {
+                      "changed": {
+                        "kind": {
+                          "BoolValue": true
+                        }
+                      },
+                      "head_blob_key": {
+                        "kind": {
+                          "StringValue": "agents/019db95d-7d6b-79d1-9908-5276e6cd29d2/internal_sqlite/019db964-1634-78f3-9c0e-bf14d37baafe.db"
+                        }
+                      },
+                      "head_version": {
+                        "kind": {
+                          "NumberValue": 4
+                        }
+                      },
+                      "result": {
+                        "kind": {
+                          "StructValue": {
+                            "fields": {
+                              "last_insert_rowid": {
+                                "kind": {
+                                  "NumberValue": 1
+                                }
+                              },
+                              "rows_affected": {
+                                "kind": {
+                                  "NumberValue": 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "parent_call_id": null,
+              "provider_ref": null,
+              "related_tool_name": null,
+              "request_id": null,
+              "tool_name": "query_database"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920299,
+      "recorded_at": "2026-04-23T08:10:37.504228683+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "Tick": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920300,
+      "recorded_at": "2026-04-23T08:10:37.596024155+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecisionRequested": {}
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920301,
+      "recorded_at": "2026-04-23T08:10:37.624632308+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "RunPolicyInitialized": {
+              "is_trial": false,
+              "model": "claude-opus-4-7",
+              "model_alias": 8,
+              "policy_type": "builder_v3"
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920302,
+      "recorded_at": "2026-04-23T08:10:37.640112680+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "StreamStarted": {
+              "model": "claude-opus-4-7",
+              "response_id": "msg_01VzVb73VLuBxap2MbzVQk64",
+              "stream_token": "019db964-16c6-7fe0-8d86-e2eaaa592716",
+              "stream_url": ""
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920316,
+      "recorded_at": "2026-04-23T08:10:39.074042309+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "PolicyDecided": {
+              "commands": [
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_01T58h36MDutmpvxLfBou3Er",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "读取全部 api_trace 供报告使用",
+                      "tool": {
+                        "EmbeddedTool": {
+                          "action": "",
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "query": {
+                                    "kind": {
+                                      "StringValue": "SELECT seq, phase, label, method, url, request_headers_sanitized, request_body, http_status, response_body_truncated, timestamp, notes FROM api_trace ORDER BY seq;"
+                                    }
+                                  },
+                                  "var": {
+                                    "kind": {
+                                      "StringValue": "trace_all"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": "读取全部 api_trace 供报告使用",
+                          "tool_name": "query_database"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "payload": {
+                    "RunToolCall": {
+                      "call_id": "toolu_012ACKUvvswsUc8KoVgNFAEX",
+                      "internal": false,
+                      "parent_call_id": null,
+                      "related_tool_name": null,
+                      "title": "读取 interrupt_events",
+                      "tool": {
+                        "EmbeddedTool": {
+                          "action": "",
+                          "arguments": {
+                            "kind": {
+                              "StructValue": {
+                                "fields": {
+                                  "query": {
+                                    "kind": {
+                                      "StringValue": "SELECT * FROM interrupt_events;"
+                                    }
+                                  },
+                                  "var": {
+                                    "kind": {
+                                      "StringValue": "interrupts_all"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "comment": "读取 interrupt_events",
+                          "tool_name": "query_database"
+                        }
+                      }
+                    }
+                  }
+                }
+              ],
+              "comments": [],
+              "compaction": null,
+              "messages": [
+                {
+                  "content": [
+                    {
+                      "content": {
+                        "Text": {
+                          "text": "api_trace 现在 18 条，超过 ≥14 要求。读出来生成报告。"
+                        }
+                      }
+                    }
+                  ],
+                  "role": "assistant"
+                }
+              ],
+              "model": "claude-opus-4-7",
+              "policy_id": null,
+              "reasoning": [],
+              "response_id": "msg_01VzVb73VLuBxap2MbzVQk64",
+              "server_tool_uses": [],
+              "usage": {
+                "cost_micros": null,
+                "input_tokens": 1,
+                "input_tokens_details": {
+                  "cache_creation_tokens": 3992,
+                  "cached_tokens": 93279
+                },
+                "output_tokens": 333,
+                "output_tokens_details": null,
+                "total_tokens": 97605
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920333,
+      "recorded_at": "2026-04-23T08:10:42.731071176+00:00"
+    },
+    {
+      "event": {
+        "agent_id": {
+          "id": "019db95d-7d6b-79d1-9908-5276e6cd29d2"
+        },
+        "event": {
+          "event": {
+            "ToolCallStarted": {
+              "call_id": "toolu_01T58h36MDutmpvxLfBou3Er",
+              "internal": false,
+              "parent_call_id": null,
+              "related_tool_name": null,
+              "title": "读取全部 api_trace 供报告使用",
+              "tool": {
+                "EmbeddedTool": {
+                  "action": "",
+                  "arguments": {
+                    "kind": {
+                      "StructValue": {
+                        "fields": {
+                          "query": {
+                            "kind": {
+                              "StringValue": "SELECT seq, phase, label, method, url, request_headers_sanitized, request_body, http_status, response_body_truncated, timestamp, notes FROM api_trace ORDER BY seq;"
+                            }
+                          },
+                          "var": {
+                            "kind": {
+                              "StringValue": "trace_all"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "comment": "读取全部 api_trace 供报告使用",
+                  "tool_name": "query_database"
+                }
+              }
+            }
+          }
+        },
+        "run_id": {
+          "id": "019db95d-7da4-7960-aa12-a6875a77cd6c"
+        },
+        "user_id": null
+      },
+      "event_index": 157920334,
+      "recorded_at": "2026-04-23T08:10:42.797008999+00:00"
+    }
+  ]
+}
