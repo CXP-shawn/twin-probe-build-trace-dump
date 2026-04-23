@@ -1,0 +1,77 @@
+{
+  "run_id": "019db95d-7da4-7960-aa12-a6875a77cd6c",
+  "agent_id": "019db95d-7d6b-79d1-9908-5276e6cd29d2",
+  "source_run_started_at": "2026-04-23T08:03:25.250769998+00:00",
+  "source_run_finished_at": "2026-04-23T08:15:36.853995397+00:00",
+  "total_events_server_reports": 1510,
+  "total_events_actually_dumped": 500,
+  "api_limitation_note": "Twin public REST API caps events response at 500 items per request. after_index / from_index / offset / limit>500 are ignored by the server; every GET returns the earliest 500 events. Because this dump is produced from inside the same agent (which itself emits new events), total_count keeps growing while pagination parameters are ignored. The dump contains the earliest 500 events (event_index 157912706..157921613) of the source run, which is all that could be retrieved.",
+  "batch_size": 50,
+  "batch_count": 10,
+  "event_index_start": 157912706,
+  "event_index_end": 157921613,
+  "batches": [
+    {
+      "file": "batches/batch_0001.json",
+      "event_index_start": 157912706,
+      "event_index_end": 157918349,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0002.json",
+      "event_index_start": 157918350,
+      "event_index_end": 157919003,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0003.json",
+      "event_index_start": 157919004,
+      "event_index_end": 157919310,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0004.json",
+      "event_index_start": 157919311,
+      "event_index_end": 157919990,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0005.json",
+      "event_index_start": 157919991,
+      "event_index_end": 157920334,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0006.json",
+      "event_index_start": 157920335,
+      "event_index_end": 157920616,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0007.json",
+      "event_index_start": 157920617,
+      "event_index_end": 157920793,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0008.json",
+      "event_index_start": 157920794,
+      "event_index_end": 157920990,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0009.json",
+      "event_index_start": 157921020,
+      "event_index_end": 157921195,
+      "count": 50
+    },
+    {
+      "file": "batches/batch_0010.json",
+      "event_index_start": 157921196,
+      "event_index_end": 157921613,
+      "count": 50
+    }
+  ],
+  "redaction_policy": "Only keys named (case-insensitive): authorization / x-api-key / api_key / bearer / secret / password are redacted to '***REDACTED***'. All other fields preserved verbatim including agent_id, run_id, response bodies, error messages, timestamps, user_id, user_email.",
+  "generated_at": "2026-04-23T11:52:22.804Z"
+}
